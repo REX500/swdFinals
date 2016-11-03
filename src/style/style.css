@@ -12,6 +12,9 @@
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
+.navbar-default .navbar-nav > li > a:hover{
+    color: orange;
+}
 .fa-beer{
   color:white;
 }
@@ -101,9 +104,39 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
-#contactDiv p{
+
+#contact-info-group{
+  padding-top: 10px;
+}
+#mailDiv input, textarea:focus{
+    color: dimgray;
+}
+#mailDiv textarea{
+    margin: 0px; width: 355px; height: 102px;
+}
+button{
+  background-color: Brown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+}
+#sendMailButton :hover{
+  color: orange;
+}
+#nameLabel{
+  margin: 10px;
+}
+#emailLabel{
+  padding-left: 35px;
+}
+#iconsSection{
   padding-top: 50px;
 }
