@@ -35,6 +35,7 @@
     max-width: 50px;
     border-color: saddlebrown;
     border-width: 3px;
+    align-self: auto;
 }
 #titleDiv h1{
   font-family: Bookman Old Style;
@@ -52,7 +53,8 @@
   padding-bottom: 40px;
   /* putting parallax effect in the back */
   /* The image used */
-  background-image: url("../img/tap.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../img/tap.jpg") no-repeat center center fixed;
   /* Set a specific height */
   height: 300px;
   background-position: center;
@@ -61,11 +63,9 @@
 }
 #aboutDiv h1{
   font-family: Bookman Old Style;
-  text-shadow: 2px 2px #ff0000;
 }
 #aboutDiv p{
   font-family: Goudy Old Style;
-  text-shadow: 2px 2px black;
 }
 #aboutDiv button{
     background-color: Brown;
@@ -108,7 +108,9 @@
   padding-top: 50px;
   padding-bottom: 20px;
 }
-
+#contactDiv p{
+  padding-top: 20px;
+}
 #contact-info-group{
   padding-top: 10px;
 }
