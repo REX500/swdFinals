@@ -23,6 +23,7 @@
   <div class="contaier-fluid" id="wrapper">
   <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
+
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span class="icon-bar"></span>
@@ -33,18 +34,21 @@
                 <i class="fa fa-beer" aria-hidden="true"></i>
               </a>
           </div>
-          <ul class="nav navbar-nav">
-              <li><a href="index.html">Stormly</a></li>
-              <li><a href="#">About Stormly</a></li>
-              <li><a href="beers.html">Products</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right" id="facebookNavbar">
-              <li><a href="offers.html">Special Offers</a></li>
-              <li><a href="directions.html">Find Us</a></li>
-              <li><a href="#"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
-              <li><a href="#"></a></li>
-          </ul>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Stormly</a></li>
+                <li><a href="#">About Stormly</a></li>
+                <li><a href="beers.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" id="facebookNavbar">
+                <li><a href="offers.html">Special Offers</a></li>
+                <li><a href="directions.html">Find Us</a></li>
+                <li><a href="#"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
       </div>
   </nav>
   <div class="container-fluid" id="titleDiv">
@@ -81,7 +85,7 @@
     <div class="container-fluid" id="directionsDiv">
       <h1 style="font-size: 87px; font-weight: 600">Find Us</h1>
       <p style="font-size: 40px">Click here to make sure you don't get lost!</p>
-      <form action="#"> <!-- FIXME: put a link to Gosia's .html file here -->
+      <form action="directions.html"> <!-- FIXME: put a link to Gosia's .html file here -->
         <button type="submit">Directions</button>
       </form>
     </div>
@@ -136,5 +140,14 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 </script>
+<!--Script for the slide show -->
+<script> src="js/bootstrap.js"</script>
+<!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
 </body>
 </html>
