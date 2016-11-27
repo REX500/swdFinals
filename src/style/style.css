@@ -1,3 +1,4 @@
+<<<<<<< refs/remotes/origin/master
 #wrapper{
   background: url("../img/boat_storm.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -224,3 +225,252 @@ button{
   opacity: 0.9;
   padding-top: 60px;
 }
+=======
+#wrapper{
+  background: url("../img/boat_storm.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar-default{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  border-color: brown;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: orange;
+}
+.fa-beer{
+  color:white;
+}
+.container-fluid{
+  margin-left: 0;
+  margin-right: 0;
+}
+#slides{
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+}
+#titleDiv{
+  padding-top: 250px;
+  text-align: center;
+  color: white;
+  padding-bottom: 250px;
+}
+#titleDiv hr {
+    max-width: 50px;
+    border-color: saddlebrown;
+    border-width: 3px;
+    align-self: auto;
+}
+#titleDiv h1{
+  font-family: Bookman Old Style;
+  font-size: 87px;
+}
+
+#titleDiv p{
+  font-family: Goudy Old Style;
+  font-size: 30;
+  opacity: 0.9;
+}
+#aboutDiv{
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  /* putting parallax effect in the back */
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("../img/tap.jpg") no-repeat center center fixed;
+  /* Set a specific height */
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#aboutDiv h1{
+  font-family: Bookman Old Style;
+}
+#aboutDiv p{
+  font-family: Goudy Old Style;
+}
+#aboutDiv button{
+    background-color: Brown;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#directionsDiv{
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  background-image: url("../img/brown.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+#directionsDiv h1{
+  font-family: Bookman Old Style;
+}
+#directionsDiv p{
+  font-family: Goudy Old Style;
+}
+#directionsDiv button{
+  background-color: Brown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#contactDiv{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#contactDiv p{
+  padding-top: 20px;
+}
+#contact-info-group{
+  padding-top: 10px;
+}
+#mailDiv textarea{
+    margin: 0px; width: 355px; height: 102px;
+}
+button{
+  background-color: Brown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+}
+#sendMailButton :hover{
+  color: orange;
+}
+#sendMailButton{
+  background-color: Brown;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#nameLabel{
+  margin: 10px;
+}
+#emailLabel{
+  padding-left: 35px;
+}
+#iconsSection{
+  padding-top: 50px;
+}
+#firstOfferDiv{
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+#firstOfferDiv p{
+  color: white;
+  font-family: Goudy Old Style;
+  font-size: 30px;
+  opacity: 0.9;
+  padding-top: 60px;
+}
+#firstOfferDiv img{
+  padding-left: 40px;
+}
+#studentDiv h1{
+  font-family: Bookman Old Style;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+#studentDiv hr{
+  max-width: 50px;
+  border-color: saddlebrown;
+  border-width: 3px;
+}
+#studentDiv{
+  padding-top: 35px;
+}
+#beerOfTheWeekDiv h1{
+  font-family: Bookman Old Style;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+#beerOfTheWeekDiv hr{
+  max-width: 50px;
+  border-color: saddlebrown;
+  border-width: 3px;
+}
+#beerOfTheWeekDiv{
+  padding-top: 35px;
+}
+#beerOfTheWeekDiv p{
+  color: white;
+  font-family: Goudy Old Style;
+  font-size: 30px;
+  opacity: 0.9;
+  padding-top: 60px;
+}
+#beerstylediv{
+  padding-top: 35px;
+}
+#beerstylediv h1{
+  font-family: Bookman Old Style;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+#beerstylediv hr{
+  max-width: 50px;
+  border-color: saddlebrown;
+  border-width: 3px;
+}
+#beerstyleinfodiv{
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+#beerstyleinfodiv p{
+  color: white;
+  font-family: Goudy Old Style;
+  font-size: 30px;
+  opacity: 0.9;
+  padding-top: 60px;
+}
+#aboutStormlyDiv{
+  padding-top: 150px;
+  color: white;
+  text-align: center;
+
+}
+#aboutStormlyDiv h1{
+  font-family: Bookman Old Style;
+  font-size: 87px;
+}
+#aboutStormlyDiv p{
+  font-family: Goudy Old Style;
+  font-size: 30px;
+  opacity: 0.9;
+}
+#aboutStormlyDiv hr{
+  max-width: 50px;
+  border-color: saddlebrown;
+  border-width: 3px;
+  align-self: auto;
+}
+>>>>>>> Connected the index file with the new about.html file and styled it!
